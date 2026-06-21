@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div {
+        background-color:white;
+           width: 300px;
+         height: 500;
+           border: 15px solid;
+           border-color:black;
+           padding: 50px;
+      margin: 20px;
+}
+h3{
+    text-align: left;
+}
+body{
+        background-image:url("images/ground.avif");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;
+       }
+</style>
+</head>
+<body>
+    <center>
+    <div>
+       <form action="up.jsp"  method="post">
+            <h3><i>Create an account</i></h3>
+            <b> ● User ID :</b> <input type = "text" name = "userid" /><br>
+            <b>● Password:</b> <input type = "password" name = "password" maxlength="6"/><br>
+            confirm password...<br>
+            <b>● Password:</b> <input type = "password" name = "confirm" maxlength="6"/><br>
+            <p align="right"><input type = "submit" name = "submit" value = "Submit" /></p></form>
+        </div>
+        </center>
+</body>
+</html>

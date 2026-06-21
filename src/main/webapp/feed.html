@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+        font-size: 24px;
+        }
+        div {
+                     background-color:white;
+                     width: 300px;
+                     height: 500;
+                     border: 15px solid  black;
+                     padding: 50px;
+                     margin: 20px;
+            }
+        body{
+        background-image:url("images/ground.avif");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:center;}
+    </style>
+</head>
+<body>
+    <center>
+    <div>
+    <form action="feed.jsp"  method="post">
+       <b> ● User ID :</b> <input type = "text" name = "userid" /><br><br>
+        <b>● Feedback:</b> <br>
+        <textarea rows = "5" cols = "15" name = "feedback">
+        </textarea><br><br>
+        <b>●Rating</b><br>
+        <input type = "checkbox" name = "ratings" value = "1"> 1<br>
+        <input type = "checkbox" name = "ratings" value = "2"> 2<br>
+        <input type = "checkbox" name = "ratings" value = "3"> 3<br>
+        <input type = "checkbox" name = "ratings" value = "4"> 4<br>
+        <input type = "checkbox" name = "ratings" value = "5"> 5<br>
+        <p align="right"><input type = "submit" name = "submit" value = "Submit" /></p>
+    </form>
+</div>
+</center>
+</body>
+</html>
