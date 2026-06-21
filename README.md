@@ -54,7 +54,7 @@ FITNESS_HACKER-HEALTH-GUIDANCE-WEBSITE
 │           │   └── zumba
 │           ├── WEB-INF
 │           └── pages
-│
+├── output.mp4
 ├── README.md
 └── .gitattributes
 ```
@@ -136,6 +136,10 @@ http://localhost:8080/
 - Diet Recommendations
 - Progress Tracking
 - Mobile Application Integration
+
+## 🎥 Project Demo
+
+Demo Video: output.mp4
 
 ## 👩‍💻 Developer
 
